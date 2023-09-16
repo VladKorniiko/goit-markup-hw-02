@@ -1,9 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -16,24 +17,34 @@ a {
   background: var(--WHITE, #fff);
 }
 .header-logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  color: var(--IRIS, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .span-logo {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--NAVY-BLUE, #2e2f42);
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
 .address-link {
   color: var(--SLATE, #434455);
-  font-style: normal;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
 }
 /* Main */
 .main-info {
@@ -50,9 +61,14 @@ a {
 .main-info-btn {
   color: var(--WHITE, #fff);
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   background: var(--IRIS, #4d5ae5);
+}
+.main-info-btn:hover,
+.main-info-btn:focus {
+  color: #404bbf;
 }
 /*Jur advantages  */
 .advantages {
@@ -62,9 +78,10 @@ a {
   display: none;
 }
 .advantages-sutitle {
+  color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .advantages-iteam {
@@ -75,6 +92,7 @@ a {
   background: var(--CLOUD, #f4f4fd);
 }
 .team-title {
+  color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -86,6 +104,7 @@ a {
   background: var(--WHITE, #fff);
 }
 .team-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -101,6 +120,7 @@ a {
   background: #fff;
 }
 .portfolio-titel {
+  color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -112,6 +132,7 @@ a {
   background: var(--WHITE, #fff);
 }
 .portfolio-subtitel {
+  color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
@@ -125,11 +146,11 @@ a {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .footer-logo {
-  color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  color: var(--IRIS, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
