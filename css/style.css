@@ -69,13 +69,11 @@ a {
 .main-info-btn:hover,
 .main-info-btn:focus {
   color: #404bbf;
+  background-color: #404bbf;
 }
 /*Jur advantages  */
 .advantages {
   background: #fff;
-}
-.advantages-title {
-  display: none;
 }
 .advantages-sutitle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -156,4 +154,7 @@ a {
 }
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
+}
+.span-logo-footer {
+  color: #f4f4fd;
 }
