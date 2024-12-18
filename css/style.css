@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -24,22 +24,25 @@ address a {
   color: #434455;
 }
 
-h1 {
+.main-titel {
   color: #ffffff;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  text-align: center;
 }
 
-h2 {
+.two-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-h3 {
+.title-three {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -48,16 +51,16 @@ h3 {
 
 .logo {
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-link {
@@ -73,13 +76,11 @@ h3 {
 .button-main {
   color: #ffffff;
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   border-color: #000;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .button-main:hover,
@@ -93,19 +94,25 @@ h3 {
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo span {
   color: #f4f4fd;
 }
+
 .nav-link:hover,
 :focus {
   color: #404bbf;
 }
 
-.address-link:hover,
+.address a:hover,
 :focus {
   color: #404bbf;
 }
