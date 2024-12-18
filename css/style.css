@@ -40,6 +40,7 @@ address a {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 .title-three {
@@ -47,6 +48,7 @@ address a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -112,7 +114,7 @@ address a {
   color: #404bbf;
 }
 
-.address a:hover,
+.address-link:hover,
 :focus {
   color: #404bbf;
 }
